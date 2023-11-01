@@ -18,7 +18,7 @@ def reproject_bbox(west, south, east, north, source_crs, target_crs):
     
     return west, south, east, north
 
-# Your original bounding box in WGS84
+# Bounding box in WGS84
 west, south, east, north = -74.3, 40.5, -73.7, 40.9
 
 # Reproject the bounding box to Mollweide
